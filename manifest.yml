@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: JavaSpringMicroserviceTPRPE
+  buildpack: java_buildpack
+  path: ./target/JavaSpringMicroserviceTPRPE-1.0-SNAPSHOT.jar
+  memory: 512M
+  domain: au-syd.mybluemix.net
+  host: java-spring-microservice-tprpe
